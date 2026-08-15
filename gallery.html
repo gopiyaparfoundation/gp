@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Gallery / गैलरी | Gopiyapar Foundation / गोपियापार फाउंडेशन</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <div class="topin">
+            <span>📍 Gopiyapar, Kaptanganj, Basti, Uttar Pradesh – 272131</span>
+            <span id="clock">Loading date & time…</span>
+        </div>
+    </div>
+
+    <div class="brandbar">
+        <div class="brandin">
+            <div class="brand">
+                <div class="logo" onclick="window.location.href='index.html'">
+                    <img src="images/logo.png" alt="Gopiyapar Foundation Logo">
+                </div>
+                <div>
+                    <h1>GOPIYAPAR FOUNDATION <span>गोपियापार फाउंडेशन</span></h1>
+                    <small>Community Development • Education • Health • Social Welfare</small>
+                </div>
+            </div>
+            <button class="menu" type="button" aria-label="Open navigation" aria-expanded="false" onclick="toggleNav()">☰</button>
+            <nav>
+                <a href="index.html">Home / होम</a>
+                <a href="strategy.html">Strategy / रणनीति</a>
+                <a href="milestones.html">Milestones / उपलब्धियाँ</a>
+                <a href="reports.html">Reports / रिपोर्ट</a>
+                <a href="gallery.html">Gallery / गैलरी</a>
+                <a href="contact.html">Contact / संपर्क</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="ticker">
+        <div class="ticker-track">
+            <span>🆕 NEW ITEMS ADDED • नवीन सामग्री जोड़ी गई</span>
+            <span>📚 Education & Literacy • शिक्षा एवं साक्षरता</span>
+            <span>🌱 Environment • पर्यावरण संरक्षण</span>
+            <span>🩺 Health Camps • स्वास्थ्य शिविर</span>
+            <span>👩‍👧 Women & Child Development • महिला एवं बाल विकास</span>
+            <span>🤝 Community Welfare • सामुदायिक कल्याण</span>
+            <span>🆕 NEW ITEMS ADDED • नवीन सामग्री जोड़ी गई</span>
+            <span>📚 Education & Literacy • शिक्षा एवं साक्षरता</span>
+        </div>
+    </div>
+
+    <main>
+        <section class="hero">
+            <span class="pill">Gallery • गैलरी</span>
+            <h2>कार्यक्रम के महत्वपूर्ण क्षण, सामुदायिक </h2><h2>भागीदारी और क्षेत्रीय गतिविधियाँ।</h2>
+            <p>This page is visual-first. It does not repeat the annual report narrative.</p>
+        </section>
+
+        <!-- <section class="section">
+            <div class="gallery">
+                <div class="g">📚 Education & literacy activities</div>
+                <div class="g">🌱 Plantation & environment awareness</div>
+                <div class="g">🩺 Medical and health outreach</div>
+                <div class="g">👩‍👧 Women & child development</div>
+                <div class="g">🎭 Cultural programmes</div>
+                <div class="g">🧘 International Yoga Day</div>
+                <div class="g">🚭 Tobacco-free awareness</div>
+                <div class="g">🍎 Hospital fruit distribution</div>
+                <div class="g">🤝 Food & essential-material distribution</div>
+                <div class="g">🏅 Sports competitions</div>
+                <div class="g">🎨 Creative competitions</div>
+                <div class="g">🛣️ Road-safety awareness</div>
+            </div> -->
+
+            <h2 class="section-title" style="margin-top:32px">Photo Gallery / फोटो गैलरी</h2>
+            <p class="muted" style="margin-top:-10px">तस्वीर पर क्लिक करके बड़े आकार में देखें / Click a photo to view it larger.</p>
+            <div id="mainGallery" class="photo-preview-list photo-preview-list--big">
+                <figure class="photo-card">
+                    <img src="images/report-2025-26/vocational-training.jpeg" alt="Vocational training programme" loading="lazy">
+                    <figcaption>Vocational training / व्यावसायिक प्रशिक्षण</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/report-2025-26/environment-1.jpeg" alt="Plantation drive" loading="lazy">
+                    <figcaption>Plantation drive / पौधरोपण</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/report-2025-26/environment-2.jpeg" alt="Plantation drive" loading="lazy">
+                    <figcaption>Plantation drive / पौधरोपण</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/report-2025-26/cultural-1.jpeg" alt="Cultural programme" loading="lazy">
+                    <figcaption>Cultural programme / सांस्कृतिक कार्यक्रम</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/report-2025-26/cultural-2.jpeg" alt="Cultural programme" loading="lazy">
+                    <figcaption>Cultural programme / सांस्कृतिक कार्यक्रम</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/report-2025-26/yoga-day.jpeg" alt="International Yoga Day" loading="lazy">
+                    <figcaption>International Yoga Day / योग दिवस</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/report-2025-26/tobacco-free-day.jpeg" alt="Tobacco-Free Day" loading="lazy">
+                    <figcaption>Tobacco-Free Day / तम्बाकू मुक्त दिवस</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/report-2025-26/food-distribution-1.jpeg" alt="Food distribution" loading="lazy">
+                    <figcaption>Food distribution / भोजन वितरण</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/report-2025-26/food-distribution-2.jpeg" alt="Food distribution" loading="lazy">
+                    <figcaption>Food distribution / भोजन वितरण</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/1.jpeg" alt="Gopiyapar Foundation activity photo 1" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/2.jpeg" alt="Gopiyapar Foundation activity photo 2" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/3.jpeg" alt="Gopiyapar Foundation activity photo 3" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/4.jpeg" alt="Gopiyapar Foundation activity photo 4" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/5.jpeg" alt="Gopiyapar Foundation activity photo 5" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/6.jpeg" alt="Gopiyapar Foundation activity photo 6" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/7.jpeg" alt="Gopiyapar Foundation activity photo 7" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/8.jpeg" alt="Gopiyapar Foundation activity photo 8" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/9.jpeg" alt="Gopiyapar Foundation activity photo 9" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/10.jpeg" alt="Gopiyapar Foundation activity photo 10" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/11.jpeg" alt="Gopiyapar Foundation activity photo 11" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/12.jpeg" alt="Gopiyapar Foundation activity photo 12" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/13.jpeg" alt="Gopiyapar Foundation activity photo 13" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/14.jpeg" alt="Gopiyapar Foundation activity photo 14" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/15.jpeg" alt="Gopiyapar Foundation activity photo 15" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/16.jpeg" alt="Gopiyapar Foundation activity photo 16" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/17.jpeg" alt="Gopiyapar Foundation activity photo 17" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/18.jpeg" alt="Gopiyapar Foundation activity photo 18" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/19.jpeg" alt="Gopiyapar Foundation activity photo 19" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/20.jpeg" alt="Gopiyapar Foundation activity photo 20" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/21.jpeg" alt="Gopiyapar Foundation activity photo 21" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="images/22.jpeg" alt="Gopiyapar Foundation activity photo 22" loading="lazy">
+                    <figcaption>कार्यक्रम की झलक / Programme highlight</figcaption>
+                </figure>
+            </div>
+
+            <!-- Lightbox for viewing photos larger -->
+            <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+                <button class="lightbox-close" type="button" aria-label="Close">✕</button>
+                <button class="lightbox-nav lightbox-prev" type="button" aria-label="Previous">‹</button>
+                <img id="lightboxImg" src="" alt="">
+                <button class="lightbox-nav lightbox-next" type="button" aria-label="Next">›</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-bottom">
+            <div class="footer-badge">
+                <span class="badge-status">🔒 Basic Protection Enabled</span>
+                <p class="badge-copyright">© GOPIYAPAR FOUNDATION. All Rights Reserved.</p>
+            </div>
+            <div class="footer-credits">
+                <p class="credit-title">Made by ITDTS (IT Development by Tushar Srivastava)</p>
+                <p class="credit-subtitle">+91-8299357488 | itdtsglobal@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
